@@ -11,6 +11,13 @@ function agregarAmigo() {
     return;
   }
 
+  let regex = /^[a-zA-ZáéíóúÁÉÍÓÚñÑ\s]+$/;
+  if (!regex.test(nombre)) {
+    alert("El nombre solo puede contener letras y espacios.");
+    return;
+  }
+  // Validar que el nombre solo contenga letras y espacios
+
   // Agregar el nombre al array
   amigos.push(nombre);
   console.log("Lista de amigos:", amigos);
