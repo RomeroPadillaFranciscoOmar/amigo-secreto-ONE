@@ -24,3 +24,8 @@ Esta es una aplicación simple que permite ingresar nombres en una lista y reali
 4️⃣ **Repetir los pasos anteriores** hasta ingresar todos los nombres.  
 5️⃣ **Hacer clic en "Sortear Amigo"** para seleccionar un nombre al azar.  
 6️⃣ **El resultado se mostrará en pantalla.**
+
+## 🔗 Demo en GitHub Pages
+
+👉 Ver en vivo
+https://romeropadillafranciscoomar.github.io/amigo-secreto-ONE/
