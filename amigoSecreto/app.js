@@ -13,6 +13,7 @@ function agregarAmigo() {
 
   // Agregar el nombre al array
   amigos.push(nombre);
+  console.log("Lista de amigos:", amigos);
 
   // Actualizar la lista en el HTML
   actualizarLista();
@@ -31,6 +32,7 @@ function actualizarLista() {
     lista.appendChild(li);
   });
 }
+
 function sortearAmigo() {
   // Validar que haya amigos en la lista
   if (amigos.length === 0) {
@@ -47,4 +49,5 @@ function sortearAmigo() {
   // Mostrar el resultado en la página
   let resultado = document.getElementById("resultado");
   resultado.innerHTML = `<li>🎉 Amigo secreto: <strong>${amigoSorteado}</strong> 🎉</li>`;
+  console.log("El amigo secreto es: " + amigoSorteado);
 }
